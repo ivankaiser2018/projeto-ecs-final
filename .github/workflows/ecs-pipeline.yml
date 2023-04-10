@@ -61,4 +61,4 @@ jobs:
    #    USER_DB: ${{ secrets.USER_DB }}
     #   PASS_DB: ${{ secrets.PASS_DB}}
   
-      run: terraform apply -auto-approve -input=false
+      run: terraform destroy -auto-approve -input=false
