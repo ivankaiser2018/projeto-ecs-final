@@ -6,7 +6,7 @@ variable "ALB_NAME" {
 
 variable "ALB_NAME_SEG" {
   type = string
-  default = "alb-seg"
+  default = "alb-sg"
 
 }
 
